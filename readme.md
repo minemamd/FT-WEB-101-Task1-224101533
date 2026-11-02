@@ -61,7 +61,7 @@ FT-WEB-101-Task1-224101533/
 
 1. Clone or download the repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/FT-WEB-101-Task1-224101533.git
+   git clone https://github.com/minemamd/FT-WEB-101-Task1-224101533.git
    ```
 2. Navigate into the folder:
    ```bash
