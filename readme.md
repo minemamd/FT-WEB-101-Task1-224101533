@@ -77,7 +77,7 @@ To view this site live on GitHub:
 1. Navigate to your repository **Settings** > **Pages**.
 2. Under **Build and deployment**, select `Deploy from a branch`.
 3. Choose the `main` branch and `/ (root)` folder, then click **Save**.
-4. Your site will be published at: `https://<YOUR-GITHUB-USERNAME>.github.io/FT-WEB-101-Task1-224101533/`
+4. Your site will be published at: `https://minemamd.github.io/FT-WEB-101-Task1-224101533/`
 
 ---
 
