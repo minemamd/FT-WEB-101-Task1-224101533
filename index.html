@@ -1,0 +1,77 @@
+<!-- Name: Mohamed Mahmoud Hassan Fathy | Student ID: 224101533 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Mahmoud Hassan Fathy - Profile Page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Mohamed Mahmoud Hassan Fathy</h1>
+
+        <nav class="bar">
+            <span class="bar-name">Mohamed Mahmoud Hassan Fathy</span>
+            <div class="bar-links">
+                <a href="#photo-section">About</a>
+                <a href="#cards-section">Skills</a>
+                <a href="#contact-section">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="photo-section" class="photo-section">
+            <img src="images/me.jpg" alt="Profile photo of Mohamed Mahmoud Hassan Fathy" class="profile-photo">
+            <p class="bio">Computer Science &amp; Engineering Student at New Mansoura University (ID: 224101533)</p>
+            <button id="dark-btn" type="button">Toggle Dark Mode</button>
+        </section>
+
+        <section id="cards-section" class="cards-section">
+            <h2>My Skills &amp; Hobbies</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Web Development</h3>
+                    <p>Building clean and responsive web pages using HTML5, CSS3, Flexbox, and JavaScript.</p>
+                </div>
+                <div class="card">
+                    <h3>Problem Solving</h3>
+                    <p>Practicing C++, data structures, and algorithms to solve programming challenges.</p>
+                </div>
+                <div class="card">
+                    <h3>Hobbies</h3>
+                    <p>Reading technology articles, playing football with friends, and exploring open-source tools.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact-section" class="contact-section">
+            <h2>Leave a Message</h2>
+            <p id="hello-line" class="hello-line">Hello visitor! Type your name below.</p>
+
+            <form id="contact-form" novalidate>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Write your name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Write your email">
+                </div>
+
+                <button type="submit" id="submit-btn">Send</button>
+                <p id="form-message" class="form-message"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Mohamed Mahmoud Hassan Fathy (ID: 224101533) - New Mansoura University.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
